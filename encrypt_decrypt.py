@@ -63,5 +63,5 @@ print("Encrypted Password:", encrypted_password)
 decrypted_password = decrypt_password(encrypted_password, key)
 print("Decrypted Password:", decrypted_password)
 
-print("Password:", password)
+print(":", password)
 
