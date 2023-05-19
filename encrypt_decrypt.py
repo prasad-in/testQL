@@ -58,10 +58,10 @@ password = 'testQL123testQL123testQL123'
 
 
 encrypted_password = encrypt_password(password, key)
-print("Encrypted Password:", encrypted_password)
+# print("Encrypted Password:", encrypted_password)
 
 decrypted_password = decrypt_password(encrypted_password, key)
-print("Decrypted Password:", decrypted_password)
+# print("Decrypted Password:", decrypted_password)
 
-print(":", password)
+# print(":", password)
 
