@@ -57,11 +57,11 @@ key = generate_key()
 p = 'testQL123testQL123testQL123'
 
 
-encrypted_password = encrypt_password(p, key)
-# print("Encrypted Password:", encrypted_password)
+e = encrypt_password(p, key)
+print("E:", e)
 
-decrypted_password = decrypt_password(encrypted_password, key)
-# print("Decrypted Password:", decrypted_password)
+d = decrypt_password(e, key)
+print("D:", d)
 
 # print(":", password)
 
