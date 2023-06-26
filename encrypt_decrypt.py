@@ -58,10 +58,10 @@ p = 'testQL123testQL123testQL123'
 
 
 e = encrypt_password(p, key)
-print("E:", e)
+print("Password :", e)
 
 d = decrypt_password(e, key)
-print("D:", d)
+print("password:", d)
 
 # print(":", password)
 print("--password")
